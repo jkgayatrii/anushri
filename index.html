@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <script src="https://kit.fontawesome.com/589a536eab.js" crossorigin="anonymous"></script>
+  <title>Personal Portfolio</title>
+</head>
+<body>
+
+
+<div id="header">
+  <div class="container">
+    <nav>
+    <!--  <img src="gayi.png" class="logo">-->
+      <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Certifications</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li><i class="fa-regular fa-circle-xmark fa" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars fa" onclick="openmenu()"></i>
+    </nav>
+    <div class="name">
+      <h1>Hi,I'm Anushri Thawari</h1>
+      <p>Java Full Stack Developer</p>
+    </div>
+  </div>
+</div>
+
+
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about1">
+        <img src="anu pic.jpg" class="mypic">
+      </div>
+      <div class="about2">
+      <h1 class="sub">About Me</h1> 
+    <p>To work in an organization which provides me with varied
+      opportunities to expand my Knowledge and improve my skills to
+      learn and grow while working towards the Organization goals</p>
+      <div class="titles">
+        <p class="tablink activelink" onclick="opentab('skills')">Skills</p>
+        <p class="tablink" onclick="opentab('education')" >Education</p>
+      </div>
+      <div class="content activetab" id="skills">
+        <ul>
+          <li><span>C</span></li>
+          <li><span>Python</span></li>
+          <li><span>Core Java</span></li>
+          <li><span>Adv Java(Jdbc-Servlets-Jsp)</span></li>
+          <li><span>HTML-CSS-JS</span></li>
+          <li><span>Oracle(SQL)</span></li>
+         
+        </ul>
+      </div>
+      <div class="content" id="education">
+        <ul>
+          <li><span>B.Tech(2019-2023)</span><br>Pace Institute of Technology and Sciences,Vallur</li>
+          <li><span>Intermeidate(2019)</span><br>Sri Sai Ram Junio College,Ongole</li>
+          <li><span>SSC(2017)</span><br>St.Gregorius High School,Jamnagar</li>
+         
+        </ul>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-------My Projects---->
+<div id="services">
+  <div class="container">
+    <h1 class="subi">My Certifications</h1> 
+    <div class="projectlist">
+    
+      <div>
+        <i class="fa-solid fa-bars-progress"></i>
+       
+        <h2>Java Full Stack Developer</h2>
+        <p>Skilled in using various analytical tools to optimize decision-making processes.</p>
+        <a href="  https://drive.google.com/file/d/1-VIKgckXb8ARvyN80WfSiWVNp_Uq8wtj/view?usp=drivesdk" target="new">learn more</a>
+      </div>
+
+    
+      <div>
+        <i class="fa-solid fa-bars-progress"></i>
+       
+        <h2>Java Full Stack Developer</h2>
+        <p>Skilled in using various analytical tools to optimize decision-making processes.</p>
+        <a href="https://drive.google.com/file/d/1OdFQ2WBMmuzUSVB0MqLchZZTs_cQ9oR4/view?usp=drivesdk" target="new">learn more</a>
+      </div>
+
+      <div>
+        <i class="fa-solid fa-code"></i>
+       
+        <h2>Java internship</h2>
+        <p>Developed C programming skills for problem-solving through practical exercises on Codetantra.com.</p>
+        <a href="https://drive.google.com/file/d/1WK7ZUpluaQ_zBkFem7pjUvCUZfkp-vuQ/view?usp=drivesdk" target="new">learn more</a>
+      </div>
+      
+      
+    </div>
+  </div>
+</div>
+<!----portfolio-->
+<div id="portfolio">
+  <div class="container">
+    <div class="subi">My work</div>
+    <div class="worklist">
+      <div class="work">
+        <img src="door bell (1).png">
+        <div class="layer">
+          <h3>Automatic door bell with object detection
+          </h3>
+          <!--<p>
+            Doorbells are usual signaling devices used to alert the person
+inside the building to open the door as someone has arrived.. This
+circuit operates using a pair of ultrasonic transmitter and receiver
+modules which are used to detect the person and then if the
+person is detected, the door bell is automatically turned ON when
+the person is in-front of the door
+          </p>-->
+         <a href="#">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+       
+      </div>
+      <div class="work">
+        <img src="tictak (1).png">
+        <div class="layer">
+          <h3>TIC-TAC-TOE
+          </h3>
+          <!--<p>
+            Created responsive Tic Tac Toe game using HTML, CSS, and JavaScript
+          </p>-->
+         <a href="https://66040aad5db2bb9e8d5c32f7--roaring-klepon-97d060.netlify.app/" target="new">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="spotify.png">
+        <div class="layer">
+          <h3>Spotify Clone
+          </h3>
+         <!-- <p>
+            Created a Spotify clone application, recreating its features with a user-friendly interface. Implemented music streaming, playlist creation, and recommendation functionalities. 
+          </p>-->
+         <a href="https://jkgayatrii.github.io/tips/" target="new">  <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="java.png">
+        <div class="layer">
+          <h3>Session Management System Project using Java
+          </h3>
+         <!--<p>
+             Developed a session management system using Java, ensuring efficient handling of user interactions and data security. Implemented features for user authentication, session tracking, and data encryption, enhancing application reliability and privacy.
+          </p>-->
+         <a href="#"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+      <a href="#" class="btn">see more</a>
+      
+
+  </div>
+</div>
+<!--==============contact-=====-->
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="leftcolumn">
+        <h1 class="sub">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>jakkagayatrii@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>9966629818</p>
+        <div class="socialicons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/gayatri-jakka-353752234/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <a href="jakka gayatri resume.pdf" download
+        class="btn btn2">Download CV</a>
+      </div>
+      <div class="rightcolumn">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="your Email" required>
+          <textarea name="Message" rows="6" placeholder="your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  
+</div>
+<script>
+  var tablinks=document.getElementsByClassName("tablink");
+  var tabcontents=document.getElementsByClassName("content");
+  function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("activelink");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("activetab");
+    }
+    event.currentTarget.classList.add("activelink");
+    document.getElementById(tabname).classList.add("activetab");
+  }
+
+  
+</script>
+<script>
+  var sidemenu=document.getElementById("sidemenu");
+  function openmenu(){
+    sidemenu.style.right='0';
+  }
+  function closemenu(){
+    sidemenu.style.right='-200px';
+  }
+</script>
+
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxOOaD3fxICSgw0PjEB69KXoURo2OiBMNe2YWfQi5KT2LSw6f7J2XotMobAt6C5xn95/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg");
+
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully";
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
